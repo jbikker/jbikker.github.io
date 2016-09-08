@@ -66,11 +66,15 @@ src="file:///F:/cloud/Dropbox/Jacco/lectures/INFOMOV/www/images/goBack.png"
               href="literature/Ray%20Tracing%20in%20Real-time%20Games%20-%202012.pdf">Ray
 
 
+
+
               Tracing for Real-time Games.</a> Ph.D. thesis, Delft
             University, 2012. ISBN 978-90-5335-595-4.<br>
             <br>
             J. Bikker and J. van Schijndel, <a
 href="literature/The%20Brigade%20Renderer%20-%20A%20Path%20Tracer%20for%20Real-Time%20Games%20-%202012.pdf">The
+
+
 
 
               Brigade Renderer: a Path Tracer for Real-time Games.</a>
@@ -79,6 +83,8 @@ href="literature/The%20Brigade%20Renderer%20-%20A%20Path%20Tracer%20for%20Real-T
             <br>
             J. Bikker, <a
 href="literature/Improving%20Data%20Locality%20for%20Efficient%20In-Core%20Path%20Tracing%20-%202012.pdf">Improving
+
+
 
 
               Data Locality for Efficient In-Core Path Tracing.</a>
@@ -96,6 +102,8 @@ href="literature/A%20Precalculated%20Point%20Set%20for%20Caching%20Shading%20Inf
             <br>
             J. Bikker, <a
 href="literature/Real-time%20Ray%20Tracing%20through%20the%20Eyes%20of%20a%20Game%20Developer%20-%202007.pdf">Real-time
+
+
 
 
               Ray Tracing through the Eyes of a Game Developer.</a> In:
@@ -121,14 +129,35 @@ src="file:///F:/cloud/Dropbox/Jacco/lectures/INFOMOV/www/images/goBack.png"
         </tr>
         <tr>
           <td class="bbox">
+            <h2>Ray Tracing / Path Tracing</h2>
             <h3>The Arauna Real-time Ray Tracer</h3>
             <br>
             <img alt="arauna1" src="images/arauna1.jpg" height="256"
               width="300">&nbsp;&nbsp; <img alt="arauna2"
               src="images/arauna2.jpg" height="256" width="390">&nbsp;&nbsp;
 
+
+
             <img alt="arauna3" src="images/arauna3.jpg" height="256"
               width="320"><br>
+            <br>
+            High-performance Whitted-style ray tracer, designed for
+            multi-core / SIMD-enabled CPUs. Used to build several
+            student games, including "<a
+              href="https://www.youtube.com/watch?v=33yrCV25A14">Let
+              There Be Light</a>", "<a
+              href="http://www.janzavadil.com/p/games.html">A Time of
+              Light</a>", "<a
+              href="http://www.thegamearchitect.com/project009.html">Pirates
+
+              on the Edge</a>" and "<a
+href="http://www.pcper.com/reviews/Graphics-Cards/Ray-Tracing-Games-Story-Other-Side">Outbound</a>".
+
+            The center image was rendered for Edge magazine.<br>
+            <br>
+            Downloads: <a
+              href="http://www.cs.uu.nl/docs/vakken/magr/materials/TimeofLight.zip">A
+              Time Of Light</a><br>
             <br>
             <h3>Brigade 1 Path Tracer</h3>
             <br>
@@ -136,8 +165,21 @@ src="file:///F:/cloud/Dropbox/Jacco/lectures/INFOMOV/www/images/goBack.png"
               width="303">&nbsp;&nbsp; <img alt="b1_2"
               src="images/b1_2.jpg" height="256" width="340">&nbsp;&nbsp;
 
+
+
             <img alt="b1_3" src="images/b1_3.jpg" height="256"
               width="367"><br>
+            <br>
+            Experimental path tracer, designed for games. Used for
+            several titles, including "<a
+              href="https://www.youtube.com/watch?v=z27EpDJprQg">Reflect</a>"
+            and "<a href="https://www.youtube.com/watch?v=AZz9zNgDxlM">It's
+
+              About Time</a>" (later <a
+              href="https://www.youtube.com/watch?v=84HBJjPJsOE">re-implemented</a>
+            using Brigade 2). Brigade 1 uses all CPUs and GPUs for
+            rendering. As Brigade 2 was sold to OTOY, source code for
+            Brigade 1 is no longer available.<br>
             <br>
             <h3>Brigade 2 Path Tracer</h3>
             <i><br>
@@ -145,22 +187,79 @@ src="file:///F:/cloud/Dropbox/Jacco/lectures/INFOMOV/www/images/goBack.png"
                 width="340">&nbsp;&nbsp; <img alt="b2_2"
                 src="images/b2_2.jpg" height="256" width="290">&nbsp;&nbsp;
 
+
+
               <img alt="b2_3" src="images/b2_3.jpg" height="256"
                 width="370"><br>
               <br>
+            </i>High-performance path tracer designed for interactive
+            applications.<br>
+            <i><br>
             </i>
             <h3>Arauna2 Path Tracer</h3>
             <i><br>
               <img alt="a2_2" src="images/a2_2.jpg" height="256"
                 width="410">&nbsp;&nbsp; <img alt="a2_1"
                 src="images/a2_1.jpg" height="256" width="510"><br>
-              <br>
+            </i><br>
+            Experimental path tracer, with efficient sampling of complex
+            BRDFs and light sources. Video <a
+              href="https://www.youtube.com/watch?v=Znr1JJLI5uY">here</a>.<br>
+            <i><br>
             </i>
             <h3>Unnamed research renderer, under construction</h3>
             <i><br>
               <img alt="n_1" src="images/n_1.jpg" height="256"
                 width="414">&nbsp;&nbsp; <img alt="n_2"
                 src="images/n_2.jpg" height="256" width="344"><br>
+              <br>
+            </i>Experimental renderer, implementing Vertex Connection
+            &amp; Merging as well as bidirectional path tracing on the
+            GPU. More information to follow.<i><br>
+            </i><br>
+            <br>
+            <h2>Other Projects</h2>
+            <br>
+            <img alt="softrast" src="images/softrast.png" align="left"
+              height="200" hspace="20" width="320">Unnamed reference
+            software rasterizer, developed for a course on ray tracing
+            for games for the Czech Technical University in Prague.
+            Features: texture mapping with palette, scene graph,
+            sub-pixel and sub-texel correction. <br>
+            <br>
+            Download <a
+              href="http://www.cs.uu.nl/docs/vakken/magr/materials/rasterizer.zip">source
+              code</a> (Visual Studio 2013 / 2015).<br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <img alt="ogllab" src="images/ogllab.png" align="left"
+              height="200" hspace="20" width="320">Unnamed OpenGL engine
+            with depth of field, shadow mapping for spotlights and point
+            lights, ambient occlusion and screen space reflections.<br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <img alt="hatched" src="images/hatched.png" align="left"
+              height="200" hspace="20" width="320">Hatched!: summer
+            family project. Full Android puzzle game, with 64 levels,
+            inspired by <a
+              href="https://en.wikipedia.org/wiki/Eggerland">Eggerland </a>(HAL).
+
+            The game was built on a custom C++ framework.<br>
+            <br>
+            Get Hatched! now from the <a
+href="https://play.google.com/store/apps/details?id=com.bik5.hatchedfull">Play
+
+              Store</a> and become my second customer. :)<br>
+            <br>
+            <i><br>
+              <br>
               <br>
               <br>
               <br>
